@@ -1,4 +1,4 @@
-<h1 align="center">AI Component Generator using React.js and Gemini API</h1>
+<h1 align="center">AI Component Generator using React.js and Google  Gemini API</h1>
 <p align="center">
 Generate modern, responsive UI components instantly using AI
 </p>
