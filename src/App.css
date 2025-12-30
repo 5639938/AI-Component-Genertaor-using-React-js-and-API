@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+  color: white;
+
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-bg: #090908;
+  --secondary-bg: #141319;
+  --tertitary-bg: #17171C;
+
+}
+
+.sptext {
+  /* Fallback color for browsers that don't support background-clip:text */
+  color: #db2777;
+  background-image: conic-gradient(at top, #db2777, #2563eb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Make text transparent so the background shows through (WebKit) */
+  -webkit-text-fill-color: transparent;
+  /* Final color override for browsers that support background-clip */
+  color: transparent;
+  display: inline-block;
+}
+.icon{
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  background-color: var(--secondary-bg);
+  cursor: pointer;
+}
