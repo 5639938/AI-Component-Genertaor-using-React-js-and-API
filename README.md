@@ -6,6 +6,8 @@ Generate modern, responsive UI components instantly using AI
 
 The AI Component Generator is a React-based web application that allows users to generate UI components by describing them in natural language. The application uses the Google Gemini API to convert prompts into clean, responsive, and modern UI code, which is displayed with a live preview.
 
+Note : Enter your Google gemini api key without this your components will not work
+
 <h2>🚀 Features</h2>
 
 Prompt-based AI UI component generation
